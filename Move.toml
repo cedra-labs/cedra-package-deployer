@@ -4,9 +4,6 @@ version = '1.0.0'
 
 [dependencies]
 CedraFramework = { git = "https://github.com/cedra-labs/cedra-network", subdir = "cedra-move/framework/cedra-framework/", rev = "devnet" }
-MoveStdlib = { git = "https://github.com/cedra-labs/cedra-network", subdir = "cedra-move/framework/move-stdlib/", rev = "devnet" }
-CedraStdlib = { git = "https://github.com/cedra-labs/cedra-network", subdir = "cedra-move/framework/cedra-stdlib/", rev = "devnet" }
-CedraToken = { git = "https://github.com/cedra-labs/cedra-network", subdir = "cedra-move/framework/cedra-token/", rev = "devnet" }
 
 [dev-addresses]
 deployer="c745ffa4f97fa9739fae0cb173996f70bb8e4b0310fa781ccca2f7dc13f7db06"
